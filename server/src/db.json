@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "mainMenu": [
+      {
+        "id": 1,
+        "title": "Home",
+        "link": "/"
+      },
+      {
+        "id": 2,
+        "title": "Tasks",
+        "link": "/tasks"
+      }
+    ]
+  },
+  "home": {
+    "title": "Home page",
+    "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sit eum reprehenderit, velit et aperiam perspiciatis vero eligendi necessitatibus iusto, deserunt voluptate incidunt, dolore quaerat mollitia eveniet fugit vel voluptates!</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sit eum reprehenderit, velit et aperiam perspiciatis vero eligendi necessitatibus iusto, deserunt voluptate incidunt, dolore quaerat mollitia eveniet fugit vel voluptates!</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sit eum reprehenderit, velit et aperiam perspiciatis vero eligendi necessitatibus iusto, deserunt voluptate incidunt, dolore quaerat mollitia eveniet fugit vel voluptates!</p>"
+  },
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Task 1"
+    },
+    {
+      "id": 2,
+      "title": "Task 2"
+    },
+    {
+      "id": 3,
+      "title": "Task 3"
+    },
+    {
+      "id": 4,
+      "title": "Task 4"
+    }
+  ]
+}

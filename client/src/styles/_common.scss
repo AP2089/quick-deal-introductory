@@ -1,0 +1,43 @@
+.buttons-group {
+  @include media('min', $viewport-post-sm) {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    > * {
+      margin-right: 10px;
+  
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  
+  @include media('max', $viewport-sm) {
+    > * {
+      display: block !important;
+      width: 100%;
+      margin-bottom: 5px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.btn-w-sm {
+  min-width: 80px;
+}
+
+.input-w-md {
+  width: 100%;
+
+  @include media('min', $viewport-post-sm) {
+    max-width: 400px;
+  }
+}
+
+.row {
+  margin-bottom: 15px;
+}
